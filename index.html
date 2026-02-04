@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нигмауллина Салима Ренатовна | Учитель начальных классов</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4e73df;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+footer {
+    background: #2e3a59;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+button {
+    background: #4e73df;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Нигмауллина Салима Ренатовна</h1>
+    <p>Учитель начальных классов</p>
+    <p>Развитие. Поддержка. Самостоятельность.</p>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#experience">Опыт работы</a>
+    <a href="#materials">Методические материалы</a>
+    <a href="#parents">Родителям</a>
+    <a href="#contacts">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2 class="section-title">Обо мне</h2>
+    <div class="card">
+        <p>
+            Я — учитель начальных классов, для меня важно создать комфортную образовательную среду,
+            в которой ребёнок чувствует уверенность, поддержку и интерес к обучению.
+        </p>
+        <br>
+        <p>
+            В своей работе уделяю внимание развитию самостоятельности,
+            формированию читательской культуры и сохранению здоровья младших школьников.
+        </p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Профессиональная деятельность</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Образование</h3>
+            <p>Педагогическое направление</p>
+        </div>
+        <div class="card">
+            <h3>Направления работы</h3>
+            <p>Развитие самостоятельности<br>
+            Здоровьесбережение<br>
+            Семейное чтение</p>
+        </div>
+        <div class="card">
+            <h3>Методический подход</h3>
+            <p>Интерактивные формы работы<br>
+            Ролевые технологии<br>
+            Проектная деятельность</p>
+        </div>
+    </div>
+</section>
+
+<section id="materials">
+    <h2 class="section-title">Методические материалы</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Интерактив для родителей</h3>
+            <p>Здоровье младших школьников</p>
+        </div>
+        <div class="card">
+            <h3>Классный час</h3>
+            <p>Развитие самостоятельности</p>
+        </div>
+        <div class="card">
+            <h3>Работа с родителями</h3>
+            <p>Чтение в семье</p>
+        </div>
+    </div>
+</section>
+
+<section id="parents">
+    <h2 class="section-title">Информация для родителей</h2>
+    <div class="card">
+        <p>
+            На странице размещаются рекомендации по организации режима дня,
+            выполнению домашних заданий и развитию учебной самостоятельности.
+        </p>
+        <br>
+        <button onclick="alert('Раздел находится в разработке')">Открыть рекомендации</button>
+    </div>
+</section>
+
+<section id="contacts">
+    <h2 class="section-title">Контакты</h2>
+    <div class="card">
+        <p>Email: example@mail.ru</p>
+        <p>Школа: __________________</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Нигмауллина Салима Ренатовна
+</footer>
+
+</body>
+</html>
